@@ -82,18 +82,18 @@ const Category = () => {
     const { mode } = context;
     return (
         <div>
-            <div className="flex flex-col mt-5">
+            <div className="flex flex-col mt-5 ">
                 {/* main 1 */}
-                <div className="flex overflow-x-scroll lg:justify-items-center  hide-scroll-bar">
+                <div className="flex overflow-x-scroll lg:justify-items-center  hide-scroll-bar ">
                     {/* main 2  */}
                     <div className="flex ">
                         {/* category  */}
                         {category.map((item, index) => {
                             return (
-                                <div key={index} className="px-3 lg:px-10">
+                                <div key={index} className="px-3 lg:px-10 ">
                                     {/* Image  */}
                                     <div onClick={() => navigate(`/category/${item.name}`)} className=" w-16 h-16 lg:w-24 lg:h-24 max-w-xs rounded-full  bg-gradient-to-r from-brown-400 to-brown-900  transition-all hover:scale-95 duration-150 cursor-pointer mb-1 " >
-                                        <div className="flex justify-center mb-12">
+                                        <div className="flex justify-center mb-12 rounded-full shadow-[0_5px_6px_5px_rgba(240,120,0)]">
                                             {/* Image tag  */}
                                             <img src={item.image} alt="img" />
                                         </div>

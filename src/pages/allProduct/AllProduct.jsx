@@ -55,7 +55,7 @@ const AllProduct = () => {
                             const { id, title, price, productImageUrl } = item
                             return (
                                 <div key={index} className="p-4 w-full md:w-1/4">
-                                    <div className="h-full bg-brown-400 border-2 hover:shadow-2xl hover:shadow-gray-500 border-gray-200  rounded-xl overflow-hidden shadow-md cursor-pointer">
+                                    <div className="h-full bg-brown-400 border-2 hover:shadow-2xl hover:shadow-gray-500 border-gray-200  rounded-xl overflow-hidden  cursor-pointer shadow-[0_5px_5px_2px_rgba(240,130,0)] ">
                                         <img
                                             onClick={() => navigate(`/productinfo/${id}`)}
                                             className="lg:h-80  h-96 w-full"

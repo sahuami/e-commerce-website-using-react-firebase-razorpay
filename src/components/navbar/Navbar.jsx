@@ -82,14 +82,14 @@ const Navbar = () => {
 
     )
     return (
-        <nav style={{ color: mode === 'dark' ? 'white' : '', }}  className=" sticky   top-0 bg-gradient-to-r from-brown-400 to-brown-900  ">
+        <nav style={{ color: mode === 'dark' ? 'white' : '', }}  className=" sticky   top-0 bg-gradient-to-r from-brown-400 to-brown-900  shadow-[0_3px_6px_1px_rgba(220,110,0)]">
             {/* main  */}
             <div className="lg:flex lg:justify-around items-center py-3 lg:px-3 ">
                 {/* left  */}
                 <div className="left py-3 lg:py-0 hover:scale-110 duration-150">
                     <Link to={'/'}>
 
-                        <h2 style={{ color: mode === 'dark' ? 'white' : '', }} className=" font-bold text-black text-2xl text-center ml-4"> 𝓢Ｈ𝑜𝕡 𝕜𝕒ｒ𝕠</h2>
+                        <h2 style={{ color: mode === 'dark' ? 'white' : '', }} className=" font-bold text-black text-2xl text-center ml-4 "> 𝓢Ｈ𝑜𝕡 𝕜𝕒ｒ𝕠</h2>
                     </Link>
                 </div>
 
