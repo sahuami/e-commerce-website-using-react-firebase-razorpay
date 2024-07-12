@@ -181,9 +181,9 @@ const AddProductPage = () => {
                                 })
                             }}
                             className="w-full px-1 py-2 text-black bg-pink-50 border border-pink-200 rounded-md outline-none  ">
-                            <option disabled>Select Product Category</option>
+                            <option value=""  disabled>Select Product Category</option>
                             {categoryList.map((value, index) => {
-                                const { name } = value
+                                const { name } = value;
                                 return (
                                     <option className=" first-letter:uppercase" key={index} value={name}>{name}</option>
                                 )

@@ -70,10 +70,10 @@ const Login = () => {
 
     }
     return (
-        <div className='flex justify-center items-center h-screen   bg-gradient-to-l from-brown-200 to-brown-500  '>
+        <div className='flex justify-center items-center  h-screen   bg-gradient-to-l from-brown-200 to-brown-500  '>
             {loading && <Loader />}
             {/* Login Form  */}
-            <div className="login_Form bg-pink-50 px-8 py-6 border-2 hover:shadow-2xl hover:shadow-gray-900 border-gray-300  bg-gradient-to-l from-brown-400 to-brown-700   rounded-xl shadow-md">
+            <div className=" login_Form  bg-pink-50 px-8 py-6 border-2 hover:shadow-2xl hover:shadow-gray-900 border-gray-300  bg-gradient-to-l from-brown-400 to-brown-700   rounded-xl shadow-md">
 
                 {/* Top Heading  */}
                 <div className="mb-5">
@@ -127,7 +127,7 @@ const Login = () => {
                 </div>
 
                 <div>
-                    <h2 className='text-black'>Don't Have an account- <Link className=' text-pink-500 font-bold' to={'/signup'}>Signup</Link></h2>
+                    <h2 className='text-black'>Don't Have an account- <Link className='  font-bold' to={'/signup'}>Signup</Link></h2>
                 </div>
 
             </div>

@@ -93,7 +93,7 @@ const Category = () => {
                                 <div key={index} className="px-3 lg:px-10 ">
                                     {/* Image  */}
                                     <div onClick={() => navigate(`/category/${item.name}`)} className=" w-16 h-16 lg:w-24 lg:h-24 max-w-xs rounded-full  bg-gradient-to-r from-brown-400 to-brown-900  transition-all hover:scale-95 duration-150 cursor-pointer mb-1 " >
-                                        <div className="flex justify-center mb-12 rounded-full shadow-[0_5px_6px_5px_rgba(240,120,0)]">
+                                        <div className="flex justify-center mb-12 rounded-full shadow-[0_1px_2px_3px_rgba(240,120,0)]">
                                             {/* Image tag  */}
                                             <img src={item.image} alt="img" />
                                         </div>

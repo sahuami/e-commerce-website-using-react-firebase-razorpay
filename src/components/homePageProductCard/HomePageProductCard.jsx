@@ -48,15 +48,15 @@ const HomePageProductCard = () => {
             </div>
 
             {/* main 1 */}
-            <section className="text-gray-600 body-font">
+            <section className="text-gray-600 body-font flex justify-evenly ">
                 {/* main 2 */}
-                <div className="container px-5 py-5 mx-auto ">
+                <div className="container py-7 ">
 
                     <div className="flex justify-center">
                         {loading && <Loader />}
                     </div>
                     {/* main 3  */}
-                    <div className="flex flex-wrap -m-4 ">
+                    <div className="flex flex-wrap ">
                         {getAllProduct.slice(0, 8).map((item, index) => {
                             const { id, title, price, productImageUrl } = item;
                             return (
@@ -73,7 +73,7 @@ const HomePageProductCard = () => {
                                                 SHOP Karo
                                             </h2>
                                             <h1 style={{ color: mode === 'dark' ? 'white' : '', }} className="title-font text-lg font-medium text-gray-900 mb-3">
-                                                {title.substring(0, 24)}
+                                                {title.substring(0, 22)}
                                             </h1>
                                             <h1 style={{ color: mode === 'dark' ? 'white' : '', }} className="title-font text-lg font-medium text-gray-900 mb-3">
                                                 ₹{price}
